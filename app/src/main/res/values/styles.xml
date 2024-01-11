@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="innercard">
+        <item name="cornerFamily">rounded</item>
+        <item name="boxCornerRadiusBottomStart">20sp</item>
+        <item name="boxCornerRadiusBottomEnd">20sp</item>
+    </style>
+</resources>

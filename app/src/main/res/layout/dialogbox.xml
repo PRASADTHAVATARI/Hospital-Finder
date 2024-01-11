@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="Autofill,LabelFor,TextFields,RtlSymmetry,HardcodedText"
+    android:layout_gravity="center"
+    android:outlineProvider="none"
+    app:cardCornerRadius="20sp"
+    app:cardBackgroundColor="@color/background"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:padding="10sp"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <EditText
+        android:backgroundTint="@color/white"
+        android:background="@drawable/curve"
+        android:lines="1"
+        android:maxLength="3"
+        android:inputType="phone"
+        android:id="@+id/availa"
+        android:paddingStart="10sp"
+        android:hint="Current Availability"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:importantForAutofill="no"
+         />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:background="@drawable/curve"
+        android:backgroundTint="#000"
+        android:layout_marginTop="20sp"
+        android:text="update"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:id="@+id/update"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Health Spot App</string>
+
+    <style name="theme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/back</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowBackground">@color/back</item>
+        <item name="android:navigationBarColor">@color/back</item>
+    </style>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="condition">ABCDEFGHIJKLMNOPQRSTUVWXYZ.abcdefghijklmnopqrstuvwxyz1234567890@</string>
+    <string name="nothing">Nothing</string>
+    <string name="data"><u>Doctor details</u></string>
+
+    <style name="inputlay" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxCornerRadiusBottomEnd">15sp</item>
+        <item name="boxCornerRadiusBottomStart">15sp</item>
+        <item name="boxCornerRadiusTopEnd">15sp</item>
+        <item name="boxCornerRadiusTopStart">15sp</item>
+        <item name="boxStrokeColor">@color/state</item>
+    </style>
+
+    <style name="text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">15sp</item>
+        <item name="android:layout_marginTop">25sp</item>
+        <item name="android:layout_marginEnd">15sp</item>
+        <item name="android:background">@drawable/curve</item>
+        <item name="android:backgroundTint">@color/loginbtn</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
